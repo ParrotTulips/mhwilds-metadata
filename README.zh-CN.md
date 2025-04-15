@@ -1,25 +1,25 @@
 # mhwilds-metadata
 
-A TypeScript/JSON package containing Monster Hunter Wilds game data.
+Monster Hunter Wilds 游戏数据的 TypeScript/JSON 包。
 
-## Installation
+## 安装
 
 ```bash
 npm install mhwilds-metadata
-# or
+# 或
 yarn add mhwilds-metadata
-# or
+# 或
 pnpm add mhwilds-metadata
 ```
 
-## Usage
+## 使用方法
 
-### Importing Data
+### 导入数据
 
 ```typescript
 import { skills, monsters, decorations, charms, armor } from "mhwilds-metadata";
 
-// Using the data
+// 使用数据
 console.log(skills);
 console.log(monsters);
 console.log(decorations);
@@ -27,12 +27,12 @@ console.log(charms);
 console.log(armor);
 ```
 
-### Using Types
+### 使用类型
 
 ```typescript
 import { Skill, Monster, Decoration, Charm, Armor } from "mhwilds-metadata";
 
-// Using types
+// 使用类型
 const skill: Skill = {
   // ...
 };
@@ -54,22 +54,22 @@ const armor: Armor = {
 };
 ```
 
-## Data Types
+## 数据类型
 
-- `skills`: Skill data
-- `monsters`: Monster data
-- `decorations`: Decoration data
-- `charms`: Charm data
-- `armor`: Armor data
+- `skills`: 技能数据
+- `monsters`: 怪物数据
+- `decorations`: 装饰品数据
+- `charms`: 护石数据
+- `armor`: 防具数据
 
-## Development
+## 开发
 
-1. Clone the repository
-2. Install dependencies: `pnpm install`
-3. Build the project: `pnpm run build`
+1. 克隆仓库
+2. 安装依赖：`pnpm install`
+3. 构建项目：`pnpm run build`
 
-## License
+## 许可证
 
 MIT
 
-[中文文档](README.zh-CN.md)
+[English Documentation](README.md)
